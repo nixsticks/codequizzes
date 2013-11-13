@@ -66,7 +66,7 @@ class Robot
   # your robots optimal height is your arm_length (estimated) multiplied by 50
   # and divided by 7
   def optimal_height(my_arm_length)
-    height = my_arm_length.to_f * 50 / 7
+    my_arm_length.to_f * 50 / 7
   end
 end
 
